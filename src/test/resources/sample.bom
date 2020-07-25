@@ -1,0 +1,12 @@
+brooklyn.catalog:
+  id: Sites.PageObjectModelFrameWork.MySampleInCatalog
+  version: "1.0"
+  itemType: template
+  description: My Sample
+  displayName: MySample
+  iconUrl: classpath:///sample-icon.png
+  libraries:
+  - file:///Path/to/archetype/sample/target/PageObjectModelFrameWork-0.0.1-SNAPSHOT.jar
+  item:
+    services:
+    - type: Sites.PageObjectModelFrameWork.MySample
